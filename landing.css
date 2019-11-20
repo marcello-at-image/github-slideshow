@@ -1,0 +1,140 @@
+<style type="text/css">
+  h1, h2, h3 {
+    font-weight: bold !important;
+  }
+  
+  .divider {
+    max-width: 85px;
+    margin-top: -10px;
+  }
+  
+  .info-text {
+    line-height: 1.2;
+  }
+  
+  .info-text p {
+    margin: 0;
+  }
+  
+  .landing-button a {
+    font-weight: bold !important;
+  }
+  
+  .triangle::after {
+    font-family: "Segoe UI Symbol" !important;
+    content: "\25B6 \FE0E";
+  }
+  
+  .sticky-nav {
+    position: -webkit-sticky;
+    position: sticky; 
+    top: 67px;
+    z-index: 100; 
+  }
+  
+  @media (min-width: 768px) {
+    .info-image-container {
+      position: relative;
+      width: 100%;
+      max-width: 500px;
+      left: -55px;
+    }
+    
+    .info-image-container-right {
+      left: 55px;
+    }
+
+    .info-image-container:before {
+        content: "";
+        display: block;
+        padding-top: 75%;
+    }
+    
+    .info-image,
+    .info-image-right {
+      position: absolute;
+      width: 100%;
+      bottom: -60px;
+    }
+    
+    .info-image {
+      left: 20px;
+    }
+    
+    .info-image-right {
+      right: 20px;
+    }
+    
+    .button-container {
+      position: absolute;
+      bottom: -85px;
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 332px) {
+    .sticky-nav {
+      position: sticky; 
+      top: 42px; 
+      z-index: 100; 
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .info-image {
+      bottom: -75px;
+    }
+    .testimonials {
+      padding: 200px 0 !important;
+    }
+  }
+  
+  @media (max-width: 365px) {
+    #s-d822bcde-ba17-4e72-bd62-7f04d28d3f9f {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+    
+    .fans-text {
+      font-size: 15px !important;
+    }
+  }
+  
+  @media (max-width: 875px) {
+    #s-9e771e0f-10a9-4d11-b5cc-60f31c9b3497 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: red;
+    }
+  }
+  
+  @media(max-width: 900px) {
+    .account-header h2 {
+      font-size: 24px !important;
+    }
+  }
+  
+  @media(max-width: 767px) {
+    .header-buttons .shg-row {
+      flex-wrap: nowrap !important;
+    }
+    
+    .header-buttons .shg-row > div {
+      width: 48% !important;
+    }
+    
+    .header-buttons a {
+      font-size: 14px !important;
+      padding: 6px 0 !important;
+    }
+    
+    #s-4a5bcc1a-14b7-4fc4-aedb-33389118a831:hover,
+    #s-ac1422a4-913d-4ea5-a829-17e6b1211da8:hover {
+      padding: 4px 0 !important;
+    }
+  }
+
+  #s-face5e21-ee2b-4dab-a132-0a4a891abd75.shg-btn {
+    display: block;
+}
+</style>
